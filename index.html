@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="description" content="فطار الامتحان - ضيف طلبك بسرعة قبل ما الطلب يتقفل" />
-  <meta name="theme-color" content="#FFF8F0" />
-  <title>فطار الامتحان</title>
+  <meta name="description" content="لقمة - ضيف طلبك بسرعة قبل ما الطلب يتقفل" />
+  <meta name="theme-color" content="#0F0E13" />
+  <title>مختار بول كينج الفول</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap" rel="stylesheet" />
@@ -21,26 +21,26 @@
       --accent: #FFD166;
       --accent2: #A8E6CF;
       --accent3: #FF8FAB;
-      --bg: #FFF8F0;
-      --bg2: #FFF3E8;
-      --card: #FFFFFF;
-      --card2: #FFFAF5;
-      --text: #2D2D2D;
-      --text2: #6B6B6B;
-      --text3: #A0A0A0;
-      --border: #F0E8DF;
-      --shadow: rgba(255,140,105,0.15);
-      --shadow2: rgba(0,0,0,0.06);
+      --bg: #121116;
+      --bg2: #1A1820;
+      --card: #1E1C24;
+      --card2: #25222C;
+      --text: #F2EFE9;
+      --text2: #B4AFC2;
+      --text3: #7A7588;
+      --border: #322E3D;
+      --shadow: rgba(0,0,0,0.45);
+      --shadow2: rgba(0,0,0,0.35);
       --radius: 20px;
       --radius-sm: 12px;
       --radius-lg: 28px;
       --transition: 0.3s cubic-bezier(0.34,1.56,0.64,1);
       --transition-fast: 0.18s ease;
       --font: 'Playpen Sans Arabic', sans-serif;
-      --cat-sandwich: #FFE5D0;
-      --cat-drink: #D0F0FF;
-      --cat-sweet: #FFD6E8;
-      --cat-extra: #D8F5E8;
+      --cat-sandwich: #3A2A22;
+      --cat-drink: #1B3340;
+      --cat-sweet: #3A2230;
+      --cat-extra: #1E3328;
       --cat-sandwich-border: #FFB899;
       --cat-drink-border: #7EC8E3;
       --cat-sweet-border: #FF8FAB;
@@ -49,7 +49,7 @@
     html { height: 100%; }
     body {
       font-family: var(--font);
-      background: #E8E0D8;
+      background: #0A090C;
       min-height: 100vh;
       display: flex;
       justify-content: center;
@@ -64,6 +64,7 @@
       background: var(--bg);
       position: relative;
       overflow: hidden;
+      box-shadow: 0 0 60px rgba(0,0,0,0.5);
     }
 
     /* ===== SCREENS ===== */
@@ -91,7 +92,7 @@
 
     /* ===== SPLASH SCREEN ===== */
     #splash {
-      background: linear-gradient(160deg, #FFF0E0 0%, #FFE8D0 50%, #FFDFC0 100%);
+      background: linear-gradient(160deg, #1A1620 0%, #221A1F 50%, #28201C 100%);
       justify-content: center;
       align-items: center;
       min-height: 100vh;
@@ -121,7 +122,7 @@
     }
     .splash-badge {
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       font-size: 12px;
       font-weight: 700;
       padding: 4px 14px;
@@ -153,7 +154,7 @@
       width: 100%;
       padding: 18px 24px;
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -185,7 +186,7 @@
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
       padding: 60px 28px 36px;
       text-align: center;
-      color: #fff;
+      color: #1E1C24;
       border-radius: 0 0 36px 36px;
     }
     .name-header-icon {
@@ -257,8 +258,8 @@
       text-align: left;
     }
     .name-tip {
-      background: linear-gradient(135deg, #FFF3E0, #FFE8D0);
-      border: 1.5px solid #FFD0A0;
+      background: linear-gradient(135deg, #2A2118, #241A14);
+      border: 1.5px solid #4A3A28;
       border-radius: var(--radius-sm);
       padding: 14px 16px;
       display: flex;
@@ -271,7 +272,7 @@
       width: 100%;
       padding: 17px;
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -287,7 +288,7 @@
     }
     .btn-continue:active { transform: scale(0.97); }
     .btn-continue:disabled {
-      background: #E0E0E0;
+      background: #3A3645;
       box-shadow: none;
       cursor: not-allowed;
       color: #B0B0B0;
@@ -324,7 +325,7 @@
     .menu-greeting-name {
       font-size: 20px;
       font-weight: 800;
-      color: #fff;
+      color: #1E1C24;
       display: flex;
       align-items: center;
       gap: 6px;
@@ -340,7 +341,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #fff;
+      color: #1E1C24;
       position: relative;
       transition: background var(--transition-fast);
       backdrop-filter: blur(10px);
@@ -432,7 +433,7 @@
     .cat-tab.active {
       background: var(--primary);
       border-color: var(--primary);
-      color: #fff;
+      color: #1E1C24;
       box-shadow: 0 4px 12px rgba(255,140,105,0.35);
     }
     .cat-tab svg { width: 16px; height: 16px; }
@@ -522,7 +523,7 @@
       height: 160px;
       position: relative;
       overflow: hidden;
-      background: #F5EDE5;
+      background: #211D24;
     }
     .card-image-wrapper img {
       width: 100%;
@@ -570,8 +571,8 @@
       position: absolute;
       top: 10px;
       left: 10px;
-      background: linear-gradient(135deg, #27AE60, #1E8449);
-      color: #fff;
+      background: linear-gradient(135deg, #27AE60, #6FD89B);
+      color: #1E1C24;
       padding: 4px 12px;
       border-radius: 20px;
       font-size: 12px;
@@ -640,11 +641,11 @@
     }
     .counter-btn.plus {
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       box-shadow: 0 3px 10px rgba(255,140,105,0.45);
     }
     .counter-btn.minus {
-      background: #FFE8DF;
+      background: #241C20;
       color: var(--primary-dark);
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
@@ -716,7 +717,7 @@
       max-width: 398px;
       z-index: 100;
       background: linear-gradient(135deg, var(--text) 0%, #1A1A1A 100%);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       padding: 16px 20px;
@@ -737,7 +738,7 @@
     }
     .cart-float-count {
       background: var(--primary);
-      color: #fff;
+      color: #1E1C24;
       font-size: 13px;
       font-weight: 800;
       width: 28px;
@@ -905,10 +906,10 @@
     }
     .cart-general-note textarea:focus { border-color: var(--primary); }
     .cart-summary {
-      background: linear-gradient(135deg, #FFF3E0, #FFE8D0);
+      background: linear-gradient(135deg, #241C14, #2A2018);
       border-radius: var(--radius-sm);
       padding: 14px 16px;
-      border: 1.5px solid #FFD0A0;
+      border: 1.5px solid #4A3A28;
     }
     .cart-summary-row {
       display: flex;
@@ -925,7 +926,7 @@
       font-size: 20px;
       font-weight: 800;
       color: var(--text);
-      border-top: 1.5px solid #FFD0A0;
+      border-top: 1.5px solid #4A3A28;
       padding-top: 10px;
       margin-top: 4px;
     }
@@ -958,7 +959,7 @@
       font-family: var(--font);
       font-size: 15px;
       font-weight: 700;
-      color: #fff;
+      color: #1E1C24;
       cursor: pointer;
       box-shadow: 0 4px 14px rgba(255,140,105,0.4);
       display: flex;
@@ -968,7 +969,7 @@
       transition: transform var(--transition), box-shadow var(--transition);
     }
     .btn-primary:active { transform: scale(0.97); }
-    .btn-primary:disabled { background: #E0E0E0; box-shadow: none; color: #B0B0B0; cursor: not-allowed; }
+    .btn-primary:disabled { background: #3A3645; box-shadow: none; color: #B0B0B0; cursor: not-allowed; }
     .btn-danger {
       flex: 2;
       padding: 14px;
@@ -978,7 +979,7 @@
       font-family: var(--font);
       font-size: 15px;
       font-weight: 700;
-      color: #fff;
+      color: #1E1C24;
       cursor: pointer;
       box-shadow: 0 4px 14px rgba(229,62,62,0.35);
       display: flex;
@@ -991,7 +992,7 @@
 
     /* ===== SUCCESS SCREEN ===== */
     #success-screen {
-      background: linear-gradient(160deg, #F0FFF4 0%, #E8F5E9 100%);
+      background: linear-gradient(160deg, #15251C 0%, #1A2A20 100%);
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -1007,7 +1008,7 @@
     .success-anim {
       width: 120px;
       height: 120px;
-      background: linear-gradient(135deg, #27AE60, #1E8449);
+      background: linear-gradient(135deg, #27AE60, #6FD89B);
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -1020,11 +1021,11 @@
       70%{ transform: scale(1.1) rotate(10deg); }
       100%{ transform: scale(1) rotate(0); }
     }
-    .success-anim svg { width: 56px; height: 56px; color: #fff; }
-    .success-title { font-size: 30px; font-weight: 800; color: #1E8449; }
+    .success-anim svg { width: 56px; height: 56px; color: #1E1C24; }
+    .success-title { font-size: 30px; font-weight: 800; color: #6FD89B; }
     .success-msg { font-size: 16px; color: var(--text2); line-height: 1.6; }
     .success-order-num {
-      background: #fff;
+      background: #1E1C24;
       border-radius: var(--radius-sm);
       padding: 12px 24px;
       font-size: 14px;
@@ -1049,7 +1050,7 @@
     .admin-header {
       background: linear-gradient(135deg, #2D2D2D 0%, #1A1A1A 100%);
       padding: 52px 20px 20px;
-      color: #fff;
+      color: #1E1C24;
     }
     .admin-header-top {
       display: flex;
@@ -1079,7 +1080,7 @@
       gap: 6px;
       background: rgba(255,255,255,0.1);
       border: none;
-      color: #fff;
+      color: #1E1C24;
       padding: 8px 14px;
       border-radius: 20px;
       cursor: pointer;
@@ -1186,7 +1187,7 @@
       transition: all var(--transition-fast);
     }
     .btn-icon:active { background: var(--border); transform: scale(0.93); }
-    .btn-icon.primary-bg { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .btn-icon.primary-bg { background: var(--primary); border-color: var(--primary); color: #1E1C24; }
     .orders-list {
       flex: 1;
       overflow-y: auto;
@@ -1229,10 +1230,10 @@
       font-size: 12px;
       font-weight: 700;
     }
-    .status-new { background: #EBF8FF; color: #2B6CB0; }
-    .status-preparing { background: #FFFBEB; color: #D69E2E; }
-    .status-done { background: #F0FFF4; color: #276749; }
-    .status-cancelled { background: #FFF5F5; color: #9B2335; }
+    .status-new { background: #162530; color: #7FB8F0; }
+    .status-preparing { background: #2A2415; color: #FFCB6B; }
+    .status-done { background: #15251C; color: #7FE0A8; }
+    .status-cancelled { background: #2A1A1C; color: #FF8FA3; }
     .order-items-preview {
       padding: 10px 16px;
       display: flex;
@@ -1257,12 +1258,12 @@
     }
     .order-general-note {
       margin: 6px 16px;
-      background: #FFFBEB;
+      background: #2A2415;
       border: 1px dashed #F6AD55;
       border-radius: 8px;
       padding: 8px 12px;
       font-size: 12px;
-      color: #744210;
+      color: #FFD685;
     }
     .order-card-footer {
       padding: 10px 16px;
@@ -1292,9 +1293,9 @@
       transition: transform var(--transition-fast);
     }
     .btn-status:active { transform: scale(0.95); }
-    .btn-status.preparing { background: #FFFBEB; color: #D69E2E; border: 1px solid #F6AD55; }
-    .btn-status.done { background: #F0FFF4; color: #276749; border: 1px solid #9AE6B4; }
-    .btn-status.delete { background: #FFF5F5; color: #9B2335; border: 1px solid #FEB2B2; }
+    .btn-status.preparing { background: #2A2415; color: #FFCB6B; border: 1px solid #F6AD55; }
+    .btn-status.done { background: #15251C; color: #7FE0A8; border: 1px solid #9AE6B4; }
+    .btn-status.delete { background: #2A1A1C; color: #FF8FA3; border: 1px solid #FEB2B2; }
 
     /* ===== SUMMARY PANEL ===== */
     .summary-section {
@@ -1308,10 +1309,10 @@
       -webkit-overflow-scrolling: touch;
     }
     .summary-header-card {
-      background: linear-gradient(135deg, var(--text) 0%, #333 100%);
+      background: linear-gradient(135deg, var(--text) 0%, #E8E4ED 100%);
       border-radius: var(--radius);
       padding: 20px;
-      color: #fff;
+      color: #1E1C24;
     }
     .summary-header-card h2 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
     .summary-header-card p { font-size: 13px; opacity: 0.7; }
@@ -1381,8 +1382,8 @@
     .btn-print {
       flex: 1;
       padding: 13px;
-      background: linear-gradient(135deg, #2D3748, #1A202C);
-      color: #fff;
+      background: linear-gradient(135deg, #D8D4E0, #1A202C);
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -1400,7 +1401,7 @@
       flex: 1;
       padding: 13px;
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -1417,13 +1418,13 @@
     .btn-download:active { transform: scale(0.97); }
     .btn-clear-orders {
       padding: 13px 14px;
-      background: #FFF5F5;
+      background: #2A1A1C;
       border: 1.5px solid #FEB2B2;
       border-radius: var(--radius);
       font-family: var(--font);
       font-size: 13px;
       font-weight: 600;
-      color: #9B2335;
+      color: #FF8FA3;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -1441,7 +1442,7 @@
       width: 100%;
       padding: 13px;
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -1512,8 +1513,8 @@
       display: inline-block;
       transition: all var(--transition-fast);
     }
-    .mgmt-avail-toggle.available { border-color: #9AE6B4; color: #276749; background: #F0FFF4; }
-    .mgmt-avail-toggle.unavailable { border-color: #FEB2B2; color: #9B2335; background: #FFF5F5; }
+    .mgmt-avail-toggle.available { border-color: #9AE6B4; color: #7FE0A8; background: #15251C; }
+    .mgmt-avail-toggle.unavailable { border-color: #FEB2B2; color: #FF8FA3; background: #2A1A1C; }
     .mgmt-item-actions {
       display: flex;
       flex-direction: column;
@@ -1530,8 +1531,8 @@
       justify-content: center;
       transition: transform var(--transition-fast);
     }
-    .btn-edit-item { background: #EBF8FF; border-color: #90CDF4; color: #2B6CB0; }
-    .btn-delete-item { background: #FFF5F5; border-color: #FEB2B2; color: #9B2335; }
+    .btn-edit-item { background: #162530; border-color: #90CDF4; color: #7FB8F0; }
+    .btn-delete-item { background: #2A1A1C; border-color: #FEB2B2; color: #FF8FA3; }
     .btn-edit-item:active, .btn-delete-item:active { transform: scale(0.88); }
 
     /* ===== SETTINGS PANEL ===== */
@@ -1583,7 +1584,7 @@
       position: absolute;
       cursor: pointer;
       inset: 0;
-      background: #E0E0E0;
+      background: #3A3645;
       border-radius: 14px;
       transition: background 0.3s ease;
     }
@@ -1594,7 +1595,7 @@
       width: 22px;
       right: 3px;
       top: 3px;
-      background: #fff;
+      background: #1E1C24;
       border-radius: 50%;
       transition: transform 0.3s ease;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
@@ -1626,7 +1627,7 @@
       width: 100%;
       padding: 15px;
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -1660,7 +1661,7 @@
       background: var(--primary);
       border: none;
       border-radius: 20px;
-      color: #fff;
+      color: #1E1C24;
       font-family: var(--font);
       font-size: 12px;
       font-weight: 700;
@@ -1690,14 +1691,14 @@
     .cat-row-delete {
       width: 30px;
       height: 30px;
-      background: #FFF5F5;
+      background: #2A1A1C;
       border: 1px solid #FEB2B2;
       border-radius: 50%;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #9B2335;
+      color: #FF8FA3;
     }
 
     /* ===== ITEM FORM MODAL ===== */
@@ -1804,7 +1805,7 @@
       background: var(--bg2);
       position: relative;
     }
-    .image-upload-area:hover { border-color: var(--primary); background: #FFF3E0; }
+    .image-upload-area:hover { border-color: var(--primary); background: #241C14; }
     .image-upload-area input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
     .image-upload-icon { margin-bottom: 8px; color: var(--text3); }
     .image-upload-text { font-size: 13px; color: var(--text2); font-weight: 600; }
@@ -1882,7 +1883,7 @@
       background: linear-gradient(135deg, #2D2D2D, #1A1A1A);
       padding: 28px 24px;
       text-align: center;
-      color: #fff;
+      color: #1E1C24;
     }
     .login-modal-icon {
       width: 64px;
@@ -1898,12 +1899,12 @@
     .login-modal-header p { font-size: 13px; opacity: 0.7; }
     .login-modal-body { padding: 24px; display: flex; flex-direction: column; gap: 16px; }
     .login-error {
-      background: #FFF5F5;
+      background: #2A1A1C;
       border: 1.5px solid #FEB2B2;
       border-radius: 10px;
       padding: 10px 14px;
       font-size: 13px;
-      color: #9B2335;
+      color: #FF8FA3;
       font-weight: 600;
       display: none;
     }
@@ -1912,7 +1913,7 @@
       width: 100%;
       padding: 15px;
       background: linear-gradient(135deg, #2D2D2D, #1A1A1A);
-      color: #fff;
+      color: #1E1C24;
       border: none;
       border-radius: var(--radius);
       font-family: var(--font);
@@ -1954,7 +1955,7 @@
     }
     .toast {
       background: #2D2D2D;
-      color: #fff;
+      color: #1E1C24;
       padding: 13px 18px;
       border-radius: var(--radius-sm);
       font-size: 14px;
@@ -1967,8 +1968,8 @@
     }
     .toast.success { background: #27AE60; }
     .toast.error { background: #E53E3E; }
-    .toast.warning { background: #D69E2E; }
-    .toast.info { background: #2B6CB0; }
+    .toast.warning { background: #FFCB6B; }
+    .toast.info { background: #7FB8F0; }
     @keyframes toastIn {
       from { opacity: 0; transform: translateY(-20px) scale(0.95); }
       to { opacity: 1; transform: translateY(0) scale(1); }
@@ -1981,7 +1982,7 @@
 
     /* ===== SKELETON LOADING ===== */
     .skeleton {
-      background: linear-gradient(90deg, #F0E8DF 25%, #F5EDE5 50%, #F0E8DF 75%);
+      background: linear-gradient(90deg, #322E3D 25%, #211D24 50%, #322E3D 75%);
       background-size: 200% 100%;
       animation: shimmer 1.5s infinite;
       border-radius: 10px;
@@ -2032,7 +2033,7 @@
     .confirm-icon {
       width: 60px;
       height: 60px;
-      background: #FFF5F5;
+      background: #2A1A1C;
       border-radius: 50%;
       margin: 0 auto 14px;
       display: flex;
@@ -2051,7 +2052,7 @@
 
     /* ===== PRINT STYLES ===== */
     @media print {
-      body { background: #fff; }
+      body { background: #1E1C24; }
       #app { max-width: 100%; }
       .screen { position: static; }
       #admin-screen { display: block !important; }
@@ -2091,7 +2092,7 @@
 
     /* ===== ORDER CLOSED ===== */
     .order-closed-banner {
-      background: linear-gradient(135deg, #FFF5F5, #FFE8E8);
+      background: linear-gradient(135deg, #2A1A1C, #FFE8E8);
       border: 1.5px solid #FEB2B2;
       border-radius: var(--radius-sm);
       padding: 14px 16px;
@@ -2101,11 +2102,11 @@
       margin: 14px 16px 0;
     }
     .order-closed-banner svg { color: #E53E3E; flex-shrink: 0; }
-    .order-closed-banner p { font-size: 14px; font-weight: 600; color: #9B2335; line-height: 1.4; }
+    .order-closed-banner p { font-size: 14px; font-weight: 600; color: #FF8FA3; line-height: 1.4; }
 
     /* ORDER OPEN BANNER */
     .order-open-banner {
-      background: linear-gradient(135deg, #F0FFF4, #E8F5E9);
+      background: linear-gradient(135deg, #15251C, #1A2A20);
       border: 1.5px solid #9AE6B4;
       border-radius: var(--radius-sm);
       padding: 10px 16px;
@@ -2115,7 +2116,7 @@
       margin: 10px 16px 0;
     }
     .order-open-banner svg { color: #27AE60; flex-shrink: 0; }
-    .order-open-banner p { font-size: 13px; color: #276749; font-weight: 600; }
+    .order-open-banner p { font-size: 13px; color: #7FE0A8; font-weight: 600; }
 
     /* ===== CAT ADD MODAL ===== */
     .small-modal-overlay {
@@ -2175,15 +2176,15 @@
       <div class="splash-illustration">
         <svg viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
           <!-- Plate -->
-          <ellipse cx="110" cy="165" rx="90" ry="22" fill="#F0E4D4" opacity="0.5"/>
-          <circle cx="110" cy="145" r="80" fill="#FFF3E0"/>
-          <circle cx="110" cy="145" r="72" fill="#FFFFFF"/>
+          <ellipse cx="110" cy="165" rx="90" ry="22" fill="#241F1A" opacity="0.5"/>
+          <circle cx="110" cy="145" r="80" fill="#241C14"/>
+          <circle cx="110" cy="145" r="72" fill="#1E1C24"/>
           <!-- Foul bean pile -->
-          <ellipse cx="110" cy="148" rx="42" ry="28" fill="#8B6914" opacity="0.9"/>
-          <ellipse cx="95" cy="140" rx="16" ry="12" fill="#A0771A"/>
-          <ellipse cx="115" cy="142" rx="14" ry="11" fill="#9A7018"/>
-          <ellipse cx="108" cy="150" rx="18" ry="13" fill="#B08020"/>
-          <ellipse cx="125" cy="145" rx="12" ry="9" fill="#A07218"/>
+          <ellipse cx="110" cy="148" rx="42" ry="28" fill="#FFCB6B" opacity="0.9"/>
+          <ellipse cx="95" cy="140" rx="16" ry="12" fill="#FFCB6B"/>
+          <ellipse cx="115" cy="142" rx="14" ry="11" fill="#FFCB6B"/>
+          <ellipse cx="108" cy="150" rx="18" ry="13" fill="#FFCB6B"/>
+          <ellipse cx="125" cy="145" rx="12" ry="9" fill="#FFCB6B"/>
           <!-- Steam lines -->
           <path d="M95 110 Q98 100 95 90 Q92 80 95 70" stroke="#FFB74D" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7">
             <animate attributeName="d" values="M95 110 Q98 100 95 90 Q92 80 95 70;M95 110 Q102 100 99 90 Q96 80 99 70;M95 110 Q98 100 95 90 Q92 80 95 70" dur="2s" repeatCount="indefinite"/>
@@ -2203,15 +2204,15 @@
           <circle cx="130" cy="144" r="3" fill="#4CAF50"/>
           <circle cx="115" cy="156" r="2.5" fill="#4CAF50"/>
           <!-- plate rim -->
-          <circle cx="110" cy="145" r="80" fill="none" stroke="#F0D8C0" stroke-width="4"/>
+          <circle cx="110" cy="145" r="80" fill="none" stroke="#2A2218" stroke-width="4"/>
           <!-- Fork -->
-          <rect x="42" y="120" width="6" height="52" rx="3" fill="#D4B896"/>
-          <rect x="39" y="118" width="2" height="22" rx="1" fill="#C4A886"/>
-          <rect x="43" y="118" width="2" height="22" rx="1" fill="#C4A886"/>
-          <rect x="47" y="118" width="2" height="22" rx="1" fill="#C4A886"/>
+          <rect x="42" y="120" width="6" height="52" rx="3" fill="#5A4A38"/>
+          <rect x="39" y="118" width="2" height="22" rx="1" fill="#4A3C2C"/>
+          <rect x="43" y="118" width="2" height="22" rx="1" fill="#4A3C2C"/>
+          <rect x="47" y="118" width="2" height="22" rx="1" fill="#4A3C2C"/>
           <!-- Spoon -->
-          <rect x="170" y="122" width="6" height="48" rx="3" fill="#D4B896"/>
-          <ellipse cx="173" cy="118" rx="6" ry="9" fill="#D4B896"/>
+          <rect x="170" y="122" width="6" height="48" rx="3" fill="#5A4A38"/>
+          <ellipse cx="173" cy="118" rx="6" ry="9" fill="#5A4A38"/>
           <!-- Stars around plate -->
           <circle cx="48" cy="85" r="3" fill="#FFD166" opacity="0.8">
             <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.8s" repeatCount="indefinite"/>
@@ -2226,7 +2227,7 @@
       </div>
       <div class="splash-badge">طلبات الامتحان</div>
       <div>
-        <h1 class="splash-title">فطار الامتحان</h1>
+        <h1 class="splash-title">لقمة</h1>
       </div>
       <p class="splash-subtitle">ضيف طلبك بسرعة قبل ما الطلب يتقفل<br>وسيوصلك المطعم فوراً</p>
       <button class="btn-start" id="btn-start" onclick="showNameScreen()">
@@ -2244,7 +2245,7 @@
   <!-- ===== NAME SCREEN ===== -->
   <section id="name-screen" class="screen hidden slide-left">
     <div class="name-header">
-      <button onclick="showScreen('splash')" style="background:rgba(255,255,255,0.15);border:none;color:#fff;width:38px;height:38px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+      <button onclick="showScreen('splash')" style="background:rgba(255,255,255,0.15);border:none;color:#1E1C24;width:38px;height:38px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
       </button>
       <div class="name-header-icon">
@@ -2387,7 +2388,7 @@
           </div>
           <div class="admin-logo-text">
             <h1>لوحة التحكم</h1>
-            <p>فطار الامتحان</p>
+            <p>لقمة</p>
           </div>
         </div>
         <button class="admin-logout-btn" onclick="adminLogout()">
@@ -2801,6 +2802,17 @@ function hideSpinner() {
   document.getElementById('spinner').classList.remove('show');
 }
 
+function firebaseErrorMessage(e, fallback) {
+  const code = e && e.code ? e.code : '';
+  if (code === 'permission-denied' || code === 'storage/unauthorized') {
+    return 'الصلاحيات غير مفعّلة في Firestore (Security Rules). افتح Firebase Console وفعّل قواعد القراءة/الكتابة للتطبيق.';
+  }
+  if (code === 'unavailable' || code === 'network-request-failed') {
+    return 'لا يوجد اتصال بالإنترنت، تأكد من الاتصال وحاول تاني';
+  }
+  return fallback;
+}
+
 function showToast(msg, type = '', duration = 3500) {
   const container = document.getElementById('toast-container');
   const toast = document.createElement('div');
@@ -2838,10 +2850,10 @@ function formatPrice(price, isFree) {
 
 function getCatColor(catName) {
   const colors = {
-    'السندوتشات': { bg: '#FFE5D0', border: '#FFB899' },
-    'المشروبات':  { bg: '#D0F0FF', border: '#7EC8E3' },
-    'الحلويات':   { bg: '#FFD6E8', border: '#FF8FAB' },
-    'الإضافات':   { bg: '#D8F5E8', border: '#A8E6CF' },
+    'السندوتشات': { bg: '#3A2A22', border: '#FFB899' },
+    'المشروبات':  { bg: '#1B3340', border: '#7EC8E3' },
+    'الحلويات':   { bg: '#3A2230', border: '#FF8FAB' },
+    'الإضافات':   { bg: '#1E3328', border: '#A8E6CF' },
   };
   const c = colors[catName];
   if (c) return c;
@@ -2968,6 +2980,7 @@ function initCategoriesListener() {
     populateCategorySelect();
   }, (error) => {
     console.error('Categories listener error:', error);
+    showToast(firebaseErrorMessage(error, 'تعذر تحميل الفئات من قاعدة البيانات'), 'error', 7000);
     // Fallback
     categories = [
       { id: '1', name: 'السندوتشات' },
@@ -3044,7 +3057,7 @@ function initMenuListener() {
   }, (error) => {
     console.error('Menu listener error:', error);
     document.getElementById('menu-skeleton').style.display = 'none';
-    showToast('خطأ في تحميل المنيو', 'error');
+    showToast(firebaseErrorMessage(error, 'خطأ في تحميل المنيو'), 'error', 7000);
   });
 }
 
@@ -3114,7 +3127,7 @@ function renderMenuCard(item) {
       <div class="card-image-wrapper">
         ${imageHtml}
         ${isUnavailable ? `<div class="unavailable-overlay"><span>غير متوفر حالياً</span></div>` : ''}
-        <div class="cat-badge" style="background:${catColor.bg};color:#333;border:1px solid ${catColor.border};">${getCatIcon(item.category || 'أخرى')}&nbsp;${item.category || ''}</div>
+        <div class="cat-badge" style="background:${catColor.bg};color:#E8E4ED;border:1px solid ${catColor.border};">${getCatIcon(item.category || 'أخرى')}&nbsp;${item.category || ''}</div>
         ${item.isFree ? `<div class="free-badge">مجاني</div>` : ''}
         ${item.isPopular ? `<div class="popular-badge"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>&nbsp;الأكثر طلباً</div>` : ''}
       </div>
@@ -3400,7 +3413,7 @@ window.confirmOrder = async function() {
     showScreen('success-screen');
   } catch(e) {
     console.error(e);
-    showToast('حدث خطأ أثناء إرسال الطلب، حاول تاني', 'error');
+    showToast(firebaseErrorMessage(e, 'حدث خطأ أثناء إرسال الطلب، حاول تاني'), 'error', 6000);
     btn.disabled = false;
     btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> تأكيد الطلب`;
   }
@@ -3502,7 +3515,7 @@ function initOrdersListener() {
     updateAdminStats();
   }, (error) => {
     console.error('Orders listener error:', error);
-    showToast('خطأ في تحميل الطلبات', 'error');
+    showToast(firebaseErrorMessage(error, 'خطأ في تحميل الطلبات'), 'error', 6000);
   });
 }
 
@@ -3704,7 +3717,7 @@ window.printSummary = function() {
     <html lang="ar" dir="rtl">
     <head>
       <meta charset="UTF-8">
-      <title>تقرير فطار الامتحان</title>
+      <title>تقرير لقمة</title>
       <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@400;700;800&display=swap" rel="stylesheet">
       <style>
         body { font-family: 'Playpen Sans Arabic', sans-serif; padding: 30px; direction: rtl; }
@@ -3722,7 +3735,7 @@ window.printSummary = function() {
       </style>
     </head>
     <body>
-      <h1>فطار الامتحان</h1>
+      <h1>لقمة</h1>
       <div class="date">تقرير ${new Date().toLocaleDateString('ar-EG')} - ${new Date().toLocaleTimeString('ar-EG')}</div>
       <div class="stats">
         <div class="stat"><div class="stat-num">${totalOrders}</div><div class="stat-lbl">طلبات</div></div>
@@ -3732,7 +3745,7 @@ window.printSummary = function() {
         <thead><tr><th>الصنف</th><th>الكمية المطلوبة</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
-      <div class="footer">تم إنشاء هذا التقرير بواسطة فطار الامتحان</div>
+      <div class="footer">تم إنشاء هذا التقرير بواسطة لقمة</div>
       <script>window.onload = () => { window.print(); }<\/script>
     </body>
     </html>
@@ -3748,7 +3761,7 @@ window.downloadSummary = function() {
       itemMap[item.name] += item.qty;
     });
   });
-  let content = 'فطار الامتحان - تقرير الطلبات\n';
+  let content = 'لقمة - تقرير الطلبات\n';
   content += `التاريخ: ${new Date().toLocaleDateString('ar-EG')}\n`;
   content += `إجمالي الطلبات: ${orders.length}\n`;
   content += '================================\n';
@@ -3973,7 +3986,7 @@ window.saveItem = async function() {
     closeItemForm();
   } catch(e) {
     console.error(e);
-    showToast('خطأ في حفظ الصنف', 'error');
+    showToast(firebaseErrorMessage(e, 'خطأ في حفظ الصنف'), 'error', 6000);
   }
   btn.disabled = false;
   btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg> حفظ الصنف`;
@@ -4003,7 +4016,7 @@ window.saveSettings = async function() {
     showToast('تم حفظ الإعدادات', 'success');
   } catch(e) {
     console.error(e);
-    showToast('خطأ في حفظ الإعدادات', 'error');
+    showToast(firebaseErrorMessage(e, 'خطأ في حفظ الإعدادات'), 'error', 6000);
   }
 };
 
@@ -4032,7 +4045,8 @@ window.saveNewCat = async function() {
     closeCatModal();
     showToast('تم إضافة الفئة', 'success');
   } catch(e) {
-    showToast('خطأ في إضافة الفئة', 'error');
+    console.error(e);
+    showToast(firebaseErrorMessage(e, 'خطأ في إضافة الفئة'), 'error', 6000);
   }
 };
 
